@@ -1,0 +1,62 @@
+@import url(../css/font.css);
+
+body{
+    background-image: url(/assets/contactusback.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+main{
+    font-family: var(--Bene);
+    color: darkblue;
+}
+a{
+    text-decoration: none;
+    color:var(--test-gray);
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    font-family: var(--Abel);
+    font-size: 2.5rem;
+}
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+h2{
+    font-family: var(--Abel);
+}
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Bene);
+    cursor: pointer;
+}
+.myOwn{
+    height:1000px;
+}
+.wid{
+    height: 350px;
+}
+span{
+    font-family: var(--Abel);
+}
+.container{
+    margin: 0 5vw;
+}
+.text-gray{
+    color: grey;
+}
+
+p{
+    font-family: var(--Bene);
+    color: var(--text-light);
+}
